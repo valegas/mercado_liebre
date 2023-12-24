@@ -1,17 +1,18 @@
-body{   
+body {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     width: 100%;
-
 }
 
-.logo{
-    width:47%
+.logo {
+    width: 47%
 }
-.header-general{
-    background-color: var(--color-Amarillo);width: 95%;
+
+.header-general {
+    background-color:#EAC926; 
+    width: 95%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -20,50 +21,11 @@ body{
     align-items: flex-start;
 
 }
+
 .search-header {
     width: 45%;
 }
-.fa-solid-fa-magnifying-glass i{
 
-}
-
-.search-header i{
-color:var(--colorGrisclaro)
-}
-
-.ofertas li{}
-
-.login li {
-}
-.imagenes-main{
-
-}
-.seccion-art-1 {
-}
-.seccion-art-1 h2{
-
-}
-
-.articulos {
-}
-.h4-div-seccion-1 {
-}
-.h4-div-seccion-1 p {
-}
-.seccion-art-2 {
-}
-.seccion-art-2 h2 {
-}
-.h4-div-seccion-2 {
-}
-
-.h4-div-seccion-2 p {
-}
-.div-footer {
-}
-.h4-div-footer {
-}
-.h4-div-footer p {
-}
-.p-copy {
+.search-header i {
+    color: var(--colorGrisclaro)
 }
