@@ -4,28 +4,111 @@ body {
     align-content: center;
     align-items: center;
     width: 100%;
+    margin: 0;
+
 }
 
 .logo {
-    width: 47%
+    width: 47%;
+    margin-top: 8px;
 }
 
 .header-general {
-    background-color:#EAC926; 
-    width: 95%;
+    background-color: var(--color-Amarillo);
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: flex-start;
-
+    flex-direction: column;
+    align-items: stretch;
 }
-
 .search-header {
     width: 45%;
+    margin-left: 2%;
+    
+}
+.mano-regalo{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    font-size: 14px;
+}
+.ofertas {
+    display: flex;
+    justify-content: flex-start;
+    /* align-content: center; */
+}
+.botones a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    margin-left: -34%;
+    color: black;
+}
+.login {
+    text-decoration: none;
+    margin-left: -12%;
+    color: black;
+}
+.link {
+    color: black;
 }
 
-.search-header i {
-    color: var(--colorGrisclaro)
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    color: var(--color-Grisclaro);
+    font: 1em sans-serif;
+    background-color: var(--color-Celeste);
+    width: 10%;
+    font-size: 24px;
+    align-items: stretch;
+    margin-left: 43%;
+    border-radius: 3px;
+}
+.banner{
+    width: 100%;
+    height: 70px;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes img {
+    width: 50%;
+    height: 50%;
+    margin-left: -4%;
+}
+
+
+.div-footer i {
+    color: var(--color-Celeste);
+    font-size: 2em;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-Grisoscuro);
+}
+.div-footer{
+    background-color: var(--color-Grisclaro);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.h4-div-footer{
+    display: flex;
+    justify-content: center;
+}
+.p-copy{
+    font-size: 12px;
+    color: var(--color-Grisoscuro);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }

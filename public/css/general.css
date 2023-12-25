@@ -1,17 +1,20 @@
 :root{
-    --variable-color-Amarillo:hwb(50 15% 9%);
-    --color-Azul:hwb(211 1% 71%);
-    --color-Celeste:hwb(216 7% 24%);
-    --color-Grisoscuro:hwb(0 40% 60%);
-    --color-Grisclaro:hwb(0 92% 8%);
-    --color-Verde:hwb(128 22% 29%);
+    --color-Amarillo: #EAC926;
+    --color-Azul: #03264C;
+    --color-Celeste: #1259c3;
+    --color-Grisoscuro:#666;
+    --color-Grisclaro:#ebebeb;
+    --color-Verde: #39b54a;
 }
 
 *{
     box-sizing: border-box;
     font-family: 'Roboto';
+    text-decoration: none;
+    list-style: none;
 } 
    
 
-  
+
+
       
