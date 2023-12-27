@@ -25,6 +25,9 @@ body {
     margin-left: 2%;
     
 }
+.fa-solid-fa-magnifying-glass{
+    margin-left: 2%;
+}
 .mano-regalo{
     display: flex;
     align-items: center;
@@ -41,13 +44,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     text-decoration: none;
-    margin-left: -34%;
     color: black;
 }
 .login {
     text-decoration: none;
-    margin-left: -12%;
     color: black;
+    padding: 0;
 }
 .link {
     color: black;
