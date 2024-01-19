@@ -1,397 +1,142 @@
-.header-general {
-    background-color: var(--color-Amarillo);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.header-general img input .ifa-solid-fa-magnifying-glass {
-    display: flex;
-    border: 2px solid white;
-    justify-content: flex-end;
-    position: absolute;
-    margin-top: 78px;
-    margin-left: 204px;
-    background-color: white;
-}
-.logo {
-    width: 47%;
-    margin: 6%;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
 
+body {
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+width: 100%;
+margin: 0;
 }
-.search-header {
-    width: 56%;
-    margin-left: 7%;
-    position: relative;
-}
-.lupa{
-  /* display: flex;
-  border: 5px solid white;
-  justify-content: flex-end;
-  position: absolute;
-  margin-top: 83px;
-  margin-left: 205px;
-  background-color: white; */
-  position: absolute;
-  font-size: 17px;
-  margin-top: 24%;
-  margin-left: 65%;
-  background-color: white;
-  border: 1px solid rgb(100, 100, 100);
-  /* display: flex; */
-  /* justify-content: unset; */
-}  
-.lupa .fa-solid-fa-magnifying-glass{
-    /* margin-left: 2%; */
-    display: flex;
-    border: 2px solid white;
-    justify-content: flex-end;
-    position: absolute;
-    margin-top: 78px;
-    margin-left: 204px;
-    background-color: white;
-}
-.mano-regalo{
-    display: flex;
-    margin-left: 40px;
-    font-size: 14px;
-    justify-content: flex-start;
-    align-items: center;
-}
-.ofertas {
-    display: flex;
-    justify-content: flex-start;
-    /* align-content: center; */
-    /* flex-direction: column-reverse; */
-    flex-wrap: wrap;
-    align-items: flex-start;
-    /* margin-right: 0%; */
-    display: none;
-    /* position: absolute; */
-    /* margin-top: 19%; */
-}
-.botones a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-decoration: none;
-    color: black;
-    margin: 0;
-    padding: 0;
-}
-.login {
-    text-decoration: none;
-    color: black;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-.link {
-    color: black;
-    margin: 0%;
-    padding: 0;
-}
-.burger-menu {
-    display: flex;
-    justify-content: center;
-    color: var(--color-Grisclaro);
-    font: 1em sans-serif;
-    background-color: var(--color-Celeste);
-    width: 12%;
-    font-size: 21px;
-    margin-left: 43%;
-    border-radius: 4px;
-    padding: 9px;
-    margin-bottom: 20px;
-}
+
 .banner{
-    width: 100%;
-    height: 70px;
+width: 100%;
+height: 70px;
 }
+
 h2{
-    font-size: 16px;
-    /* text-align: center; */
-    color: var(--color-Grisoscuro);
+font-size: 16px;
+color: var(--color-Grisoscuro);
 }
+
 .articulos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 89%;
-    border: 1px solid grey;
-    box-shadow: 0px 0px 1px 8px #ebebeb;
-    margin: 19px 0;
-    border-width: 16%;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 89%;
+border: 1px solid grey;
+box-shadow: 0px 0px 1px 8px #ebebeb;
+margin: 19px 0;
+border-width: 16%;
 }
 
 .detalles{
-    /* display: flex;
-    
-margin: 0%;
-    
-width: 0%;
-    
-font-size: 14px;
-    
-padding: 15px;
-    
-border: 1px solid var(--color-Grisclaro); */
-    width: 254px;
-    border-top: 1px solid #8080802e;
+width: 254px;
+border-top: 1px solid #8080802e;
 }
+
 .fa-solid.fa-truck {
-    /* /* font-size: 16px;
-    display: flex;
-    border: 1px solid green;
-    border-radius: 50%;
-    padding-block: 9px;
-    /* background-color:white; 
-    color:green;
-    height: 12%;
-    width: 29px;  */
-    /* display: flex; */
-    border: 1px solid green;
-    border-radius: 50%;
-    width: 14%;
-    padding: 2%;
-    font-size: 12px;
-    margin-left: 0%;
-    color: green;
-    /* height: 21%; */
+border: 1px solid green;
+border-radius: 50%;
+width: 14%;
+padding: 2%;
+font-size: 12px;
+margin-left: 0%;
+color: green;
 }
+
 .precio{
-    /* width: 98%;
-    margin: 86%;
-    font-size: 14px; */
-    margin: 0px;
+margin: 0px;
 } 
 
 .descuento{
-    color: #6f9c7b;
-    margin: 0px;
+color: #6f9c7b;
+margin: 0px;
 }
 
 .h4-div-seccion-1{
-    
 display: none;
 }
 
 .imagenes{
-    display: flex;
-    width: 90%;
-    margin-left: 42px;
-    box-shadow: 0px, 0, 10px rgba(100, 100, 100);
-    flex-wrap: wrap;
-    flex-direction: column;
+display: flex;
+width: 90%;
+margin-left: 42px;
+box-shadow: 0px, 0, 10px rgba(100, 100, 100);
+flex-wrap: wrap;
+flex-direction: column;
 }
-.imagenes img {
-    width: 76%;
-    margin: 21px;
+.imagenes img {width: 76%;margin: 21px;
 }
 
-
-.div-footer i {
-    color: var(--color-Celeste);
-    font-size: 2em;
-    margin-top: 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.div-footer{
-    background-color: var(--color-Grisclaro);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.h4-div-footer{
-    display: flex;
-    justify-content: center;
-}
-.p-copy{
-    font-size: 12px;
-    color: var(--color-Grisoscuro);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
- /* tablet */
+/* TABLET */
 @media (min-width:426px) {
-    .header-general {
-}
 
-    .logo {
-    width: 37%;
-}
-    body {}
-    .search-header {
-    font-size: 17px;
-    margin-top: 18%;
-    width: 26%;
-    margin-left: 4%;
-    height: 5%;
-    position: absolute;
-}
-    .lupa{
-    margin-left: 33%;
-    margin-top: 141px;
-}
-    .fa-solid-fa-magnifying-glass{}
+body {}
 
-    .mano-regalo{
-        margin-left: 369px;
-    }
+.banner{}
 
-
-    .ofertas {
-    display: flex;
-    position: absolute;
-    margin-top: 28%;
-}
-
-    .botones a {}
-
-    .login {
-    display: block;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* position: absolute; */
-    margin-top: 10%;
-}
-
-    .link {}
-
-    .burger-menu {
-    display: none;
-}
-
-    .banner{}
-
-.subtitulos{
-    /* text-decoration: solid; */
-}
-
-    .articulos{}
-
-    .detalles{}
-
-    .fa-solid.fa-truck{}
-
-    .precio{}
-
-.descuento{
-    
-}
-
-.h4-div-seccion-1{
-    display: block;
-}
-
-.imagenes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-    .imagenes img {}
-
-    .div-footer i {}
-
-    .div-footer{}
-
-    .h4-div-footer{}
-
-    .p-copy{} 
-}
-/* portatil depto */
-@media (min-width:769px){
-    .header-general {}
-
-    .logo {
-}
-
-    body {}
-
-    .search-header {
-    position: absolute;
-    margin-top: 18%;
-    font-size: 21px;
-    height: 3%;
-}
-    .lupa{
-    margin-top: 184px;
-    margin-left: 320px;
-}
-    .fa-solid-fa-magnifying-glass{}
-
-    .mano-regalo{
-    margin-left: 483px;
-}
-
-    .ofertas {}
-
-    .botones a {}
-
-    .login {}
-
-    .link {}
-
-    .burger-menu {}
-
-    .banner{
-    height: 188px;
-}
 .subtitulos{}
 
-    .articulos{
-        box-shadow: 1px 6px 10px  #ebebeb;
-        width: 24%;
-        display: inline-block;
-        padding: 7px;
-    }
+.articulos{}
+
+.detalles{}
+
+.fa-solid.fa-truck{}
+
+.precio{}
+
+.descuento{}
+
+.h4-div-seccion-1{
+display: block;
+}
+.imagenes{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.imagenes img {}
+
+}
+
+/* PORTATIL DESKTO  */
+@media (min-width:769px){
+.body {}
+
+.burger-menu {}
+
+.banner{
+height: 188px;
+}
+.subtitulos{}
+.articulos{
+box-shadow: 1px 6px 10px  #ebebeb;
+width: 24%;
+display: inline-block;
+padding: 7px;
+}
 .detalles{
-    width: 98%;
+width: 98%;
 }
 .fa-solid.fa-truck{
-    
 width: 10%;
-    
 font-size: 12px;
-    
 height: 43px;
 }
-    .precio{}
+.precio{}
 
-    .descuento{}
+.descuento{}
 
-    .h4-div-seccion-1{}
+.h4-div-seccion-1{}
 
-    .imagenes{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.imagenes{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 }
 
-    .imagenes img {
+.imagenes img {
 }
 
-    .div-footer i {}
 
-    .div-footer{}
-
-    .h4-div-footer{}
-
-.text-footer{
-    display: flex;
-}
-
-    .p-copy{} 
 }
