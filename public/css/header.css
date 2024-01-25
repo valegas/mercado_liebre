@@ -44,101 +44,67 @@ margin-top: 78px;
 margin-left: 204px;
 background-color: white;
 }
-.mano-regalo{
-display: flex;
-margin-left: 40px;
-font-size: 14px;
-justify-content: flex-start;
-align-items: center;
+#mano{
+    margin-top: -17px;
+    margin-left: 0%;
 }
-.ofertas {
-display: flex;
-justify-content: flex-start;
-flex-wrap: wrap;
-align-items: flex-start;
-display: none;
+.mano-regalo{display: flex;margin-left: 39px;font-size: 14px;justify-content: flex-start;align-items: center;margin: 7px;}
+.login ul li {
+    display: inline;
+}
 
+.ofertas ul li {
+
+}
+.ofertas  {
+display: none;
+/* margin-top: 0%; */
+text-decoration: none;
 }
 .botones a {
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-text-decoration: none;
+
 color: black;
-margin: 0;
-padding: 0;
+
 }
-.login {
-text-decoration: none;
-color: black;
-padding: 0;
-margin: 0;
-display: none;
-}
+.login {text-decoration: none;color: black;padding: 0;margin: 0;display: none;}
 .link {
 color: black;
 margin: 0%;
 padding: 0;
 }
-.burger-menu {
-display: flex;
-justify-content: center;
-color: var(--color-Grisclaro);
-font: 1em sans-serif;
-background-color: var(--color-Celeste);
-width: 12%;
-font-size: 21px;
-margin-left: 43%;
-border-radius: 4px;
-padding: 9px;
-margin-bottom: 20px;
-}
+.burger-menu {display: flex;justify-content: center;color: var(--color-Grisclaro);font: 1em sans-serif;background-color: var(--color-Celeste);width: 12%;font-size: 21px;margin-left: 42%;border-radius: 4px;padding: 9px;margin-bottom: 20px;}
 /* TABLET */ 
 @media (min-width:426px) {
 .header-general {
 }
 
-.logo {
-width: 37%;
-}
+.logo {width: 29%;margin-left: 4%;}
 body {}
-.search-header {
-font-size: 17px;
-margin-top: 18%;
-width: 26%;
-margin-left: 4%;
-height: 5%;
-position: absolute;
-}
-.lupa{
-margin-left: 33%;
-margin-top: 141px;
-}
+.search-header {font-size: 18px;margin-top: 10%;width: 25%;margin-left: 34%;height: 3%;position: absolute;}
+.lupa{margin-left: 60%;margin-top: 78px;width: 3%;height: 22px;}
 .fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{
-margin-left: 369px;
-}
+.mano-regalo{margin-left: 513px;display: flex;position: absolute;top: 11%;font-size: 14px;}
 
 
-.ofertas {
-display: flex;
-position: absolute;
-margin-top: 28%;
+.login ul li {
+    display:inline; 
+    justify-content: flex-end;
+    margin: 0 0 0 8px;
 }
+.ofertas ul li{
+display: inline;
+margin-top: 23%;
+margin: 0 0 0 12px;
+}
+.ofertas {display: inline;position: absolute;top: 33%;left: -3%;text-decoration: none;}
 .botones a {}
 
-.login {
-display: block;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+.login {/* display: block; */display: inline;/* justify-content: flex-end; */align-items: center;margin-top: 10%;margin-left: 59%;}
 
-margin-top: 10%;
+.link {
 }
-
-.link {}
 
 .burger-menu {
 display: none;
@@ -153,29 +119,26 @@ display: none;
 
 body {}
 
-.search-header {
-position: absolute;
-margin-top: 18%;
-font-size: 21px;
-height: 3%;
-}
-.lupa{
-margin-top: 184px;
-margin-left: 320px;
-}
+.search-header {position: absolute;margin-top: 11%;font-size: 21px;height: 2%;}
+.lupa{margin-left: 60%;margin-top: 11%;height: 22px;font-size: 15px;}
 .fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{
-margin-left: 483px;
+.mano-regalo{margin-left: 691px;}
+.login ul li {
+    
+}
+.ofertas ul li{
+    
+}
+.ofertas {display: inline;top: 304px;list-style: none;text-decoration: none;margin-left: 3%;}
+
+.botones a {}
+
+.login {
 }
 
-    .ofertas {}
+.link {}
 
-    .botones a {}
+.burger-menu {}
 
-    .login {}
-
-    .link {}
-
-    .burger-menu {}
 }
