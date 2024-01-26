@@ -57,7 +57,7 @@ margin: 0px;
 display: none;
 }
 
-.imagenes{
+.main-productos{
 display: flex;
 width: 90%;
 margin-left: 42px;
@@ -65,9 +65,14 @@ box-shadow: 0px, 0, 10px rgba(100, 100, 100);
 flex-wrap: wrap;
 flex-direction: column;
 }
-.imagenes img {width: 76%;margin: 21px;
+.seccion-art-1{
+    
 }
-
+.main-productos img {width: 76%;margin: 21px;
+}
+#camiom{
+    height: 12%;
+}
 /* TABLET */
 @media (min-width:426px) {
 
@@ -103,10 +108,18 @@ body {}
 .h4-div-seccion-1{
 display: block;
 }
-.imagenes{/* display: flex; */flex-direction: row;flex-wrap: nowrap;gap: 66px;}
-.imagenes img {}
+.main-productos{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.seccion-art-1{
+    
+}
+.main-productos img {}
 
 }
+
 
 /* PORTATIL DESKTO  */
 @media (min-width:769px){
@@ -118,18 +131,32 @@ display: block;
 height: 188px;
 }
 .subtitulos{}
-.articulos{box-shadow: 1px 6px 10px  #ebebeb;width: 24%;display: inline-block;flex-direction: row;margin-left: -1px;position: relative;}
-.detalles{width: 104%;}
-.fa-solid.fa-truck{width: 12%;font-size: 12px;height: 28px;}
+.articulos{
+box-shadow: 1px 6px 10px  #ebebeb;
+width: 24%;
+display: inline-block;
+padding: 7px;
+}
+.detalles{
+width: 98%;
+}
+.fa-solid.fa-truck{width: 10%;font-size: 12px;height: 43px;height: 22;}
 .precio{}
 
 .descuento{}
 
 .h4-div-seccion-1{}
 
-.imagenes{display: flex;flex-wrap: wrap;flex-direction: row;gap: 2px;}
+.main-productos{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.seccion-art-1{
 
-.imagenes img {
+}
+
+.main-productos img {
 }
 
 
