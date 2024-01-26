@@ -37,7 +37,7 @@
     <nav class="login">
         <ul>
             <li><a class="link"href="/registre"> Crear tu cuenta </a><i class="fa-solid fa-address-card"></i></li>
-                        <li><a class="link"href="/login"> Ingresar </a><i class="fa-solid fa-right-to-bracket"></i></li>
+                        <li><a class="link-login"href="/login"> Ingresar </a><i class="fa-solid fa-right-to-bracket"></i></li>
                         <li><a class="link"href=""> Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
                         
                     </ul>
@@ -50,39 +50,57 @@
     <img class="banner" src="/img/img-home-banner.jpg" alt="">
     <main class="main-productos">
         <html>
-  <head>
-    <title>Formularios</title>
-  </head>
-  <body>
-    <form action="/login" method="">
-       
-        <input type="text" name=" nombre completo">
-        <input type="text" name="nombre de usuario">
-        <input type="email" name="email">
-        <input type="date" name="fecha">
-        <input type="text" name="domicilio">
-        <label for ="comprar ">¿quieres comprar ?</label> 
-        <input type="radio" name="compra" value="si">si 
-        <input type="radio" name="compra" value="no">no
-        <label for ="vender">¿quieres vender ?</label>
-        <input type="radio" name="vender" value="si">si
-        <input type="radio" name="vender" value="no">no
-      
-              
-    <label for ="hobbies">categorias de interes</label>
-        <input type="checkbox" name="interes" value="Electro">Electro
-        <input type="checkbox" name="interes" value="Mopda">Mopda
-        <input type="checkbox" name="interes" value="Hogar">Hogar
-        <input type="checkbox" name="interes" value="Jugeteria">Jugeteria
-        <input type="checkbox" name="interes" value="Vida sana">Vida sana"
-<input type="file" name="avatar" accept="jpg" multiple>
-<input type="password" name="password">    
-<input type="password" name="password">    
+
+    <form action="/registre" method="">
+       <div>
+           <input type="text" name=" nombre completo"placeholder="Ingrese su Nombre y Apellido">  
+       </div>
+            <div>
+                <input type="text" name="nombre de usuario" placeholder="Usuario">
+            </div>
+<div>
+    <input class="form-control" type="email" name="email" placeholder="E-MAIL" >
+</div>
+<div>
+    <label for="email">Fecha de nacimiento</label>
+</div>
+<div>
+    <input type="date" name="fecha">
+</div>
+<div>
+    <input type="text" name="domicilio" placeholder="Domicilio" >
+</div>
+<div>
+    <input type="radio" name="compra" value="si">comprador
+</div>
+<div>
+    <input type="radio" name="compra" value="no">Vendedor
+</div>
+
+<div>
+    
+    <label for ="hobbies">Interes</label>
+    <input type="checkbox" name="interes" value="Electro">Electro
+    <input type="checkbox" name="interes" value="Mopda">Mopda
+    <input type="checkbox" name="interes" value="Hogar">Hogar
+    <input type="checkbox" name="interes" value="Jugeteria">Jugeteria
+    <input type="checkbox" name="interes" value="Vida sana">Vida sana"
+</div>
+<div>
+    <input type="file" name="avatar" accept="jpg" multiple>
+</div>
+<div>
+    <input type="password" name="password" placeholder="Elegi tu contraseña" >    
+    <input type="password" name="password" placeholder="Confirmar contraseña" >    
+</div>
            
 
+<div>
 
-        <button type="reset" value="borrar" >Borrar</button>
-        <button type="submit" href="/login" value="Enviar" >Enviar</button>
+    <button type="reset" value="borrar" ></button>
+    <button type="submit" href="/login" value="Enviar" ></button>
+</div>
+
     </form>
 
 

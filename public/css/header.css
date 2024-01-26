@@ -1,10 +1,4 @@
-.header-general {
-background-color: var(--color-Amarillo);
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-}
+.header-general {background-color: var(--color-Amarillo);width: 100%;display: flex;flex-direction: column;}
 .header-general img input .ifa-solid-fa-magnifying-glass {
 display: flex;
 border: 2px solid white;
@@ -108,10 +102,10 @@ display: inline;
 margin-top: 23%;
 margin: 0 0 0 12px;
 }
-.ofertas {display: inline;position: absolute;top: 33%;left: -3%;text-decoration: none;}
+.ofertas {display: inline;position: absolute;top: 40%;left: 4%;text-decoration: none;width: 42%;height: 47px;}
 .botones a {}
 
-.login {/* display: block; */display: inline;/* justify-content: flex-end; */align-items: center;margin-top: 10%;margin-left: 59%;}
+.login {/* display: block; */display: inline;/* justify-content: flex-end; */align-items: center;margin-top: 7%;margin-left: 55%;}
 
 .link {
 }
@@ -150,14 +144,25 @@ margin-left: 483px;
 .ofertas ul li{
     
 }
-.ofertas {}
+.ofertas {
+    display: inline;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    text-decoration: none;
+    width: 42%;
+    height: 47px;
+}
 
 .botones a {}
 
 .login {
 }
 
-.link {}
+.link a{
+    text-decoration: none;
+    list-style: none;
+}
 
 .burger-menu {}
 
