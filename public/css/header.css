@@ -51,19 +51,29 @@ background-color: white;
 .mano-regalo{display: flex;margin-left: 39px;font-size: 14px;justify-content: flex-start;align-items: center;margin: 7px;}
 .login ul li {
     display: inline;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none; 
+}
+ul li{
+
+    text-decoration: none;
+    list-style: none; 
 }
 
 .ofertas ul li {
-
+text-decoration: none;
 }
 .ofertas  {
-display: none;
-/* margin-top: 0%; */
-text-decoration: none;
+
+display: none;
+text-decoration: none;
 }
 .botones a {
 
-
+text-decoration: none;
 color: black;
 
 }
@@ -119,18 +129,28 @@ display: none;
 
 body {}
 
-.search-header {position: absolute;margin-top: 11%;font-size: 21px;height: 2%;}
-.lupa{margin-left: 60%;margin-top: 11%;height: 22px;font-size: 15px;}
+.search-header {
+position: absolute;
+margin-top: 18%;
+font-size: 21px;
+height: 3%;
+}
+.lupa{
+margin-top: 184px;
+margin-left: 320px;
+}
 .fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{margin-left: 691px;}
+.mano-regalo{
+margin-left: 483px;
+}
 .login ul li {
     
 }
 .ofertas ul li{
     
 }
-.ofertas {display: inline;top: 304px;list-style: none;text-decoration: none;margin-left: 3%;}
+.ofertas {}
 
 .botones a {}
 
