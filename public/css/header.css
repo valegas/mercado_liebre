@@ -1,149 +1,260 @@
-.header-general {background-color: var(--color-Amarillo);width: 100%;display: flex;flex-direction: column;}
-.header-general img input .ifa-solid-fa-magnifying-glass {
-display: flex;
-border: 2px solid white;
-justify-content: flex-end;
-position: absolute;
-margin-top: 78px;
-margin-left: 204px;
-background-color: white;
+.header-general {
+    background-color: var(--color-Amarillo);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+.header-general img input .ifa-solid-fa-magnifying-glass {
+    display: flex;
+    border: 2px solid white;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 204px;
+    background-color: white;
+}
+
 .logo {
-width: 47%;
-margin: 6%;
+    width: 47%;
+    margin: 6%;
 }
 
 .search-header {
-width: 56%;
-margin-left: 7%;
-position: relative;
+    width: 56%;
+    margin-left: 7%;
+    position: relative;
 }
-.lupa{
 
-position: absolute;
-font-size: 17px;
-margin-top: 24%;
-margin-left: 65%;
-background-color: white;
-border: 1px solid rgb(100, 100, 100);
+.lupa {
 
-}  
-.lupa .fa-solid-fa-magnifying-glass{
+    position: absolute;
 
-display: flex;
-border: 2px solid white;
-justify-content: flex-end;
-position: absolute;
-margin-top: 78px;
-margin-left: 204px;
-background-color: white;
+    font-size: 18px;
+
+    margin-top: 24%;
+
+    margin-left: 65%;
+
+    background-color: white;
+
+    border: 1px solid rgb(100, 100, 100);
 }
-#mano{
+
+.lupa .fa-solid-fa-magnifying-glass {
+
+    display: flex;
+    border: 2px solid white;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 204px;
+    background-color: white;
+}
+
+#mano {
     margin-top: -17px;
     margin-left: 0%;
 }
-.mano-regalo{display: flex;margin-left: 39px;font-size: 14px;justify-content: flex-start;align-items: center;margin: 7px;}
+
+.mano-regalo {
+    display: flex;
+    margin-left: 39px;
+    font-size: 14px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 7px;
+}
+
 .login ul li {
     display: inline;
 }
 
 .ofertas ul li {
 
+    display: inline;
+
+    flex-direction: row;
 }
-.ofertas  {
 
-display: none;
+.ofertas {
 
-/* margin-top: 0%; */
+    display: none;
 
-text-decoration: none;
+    /* margin-top: 0%; */
+
+    text-decoration: none;
 }
+
 .botones a {
 
 
-color: black;
+    color: black;
 
 }
-.login {text-decoration: none;color: black;padding: 0;margin: 0;display: none;}
-.link {
-color: black;
-margin: 0%;
-padding: 0;
-}
-.burger-menu {display: flex;justify-content: center;color: var(--color-Grisclaro);font: 1em sans-serif;background-color: var(--color-Celeste);width: 12%;font-size: 21px;margin-left: 42%;border-radius: 4px;padding: 9px;margin-bottom: 20px;}
-/* TABLET */ 
-@media (min-width:426px) {
-.header-general {
-}
 
-.logo {width: 29%;margin-left: 4%;}
-body {}
-.search-header {font-size: 18px;margin-top: 10%;width: 25%;margin-left: 34%;height: 3%;position: absolute;}
-.lupa{margin-left: 60%;margin-top: 78px;width: 3%;height: 22px;}
-.fa-solid-fa-magnifying-glass{}
-
-.mano-regalo{margin-left: 513px;display: flex;position: absolute;top: 11%;font-size: 14px;}
-
-
-.login ul li {
-    display:inline; 
-    justify-content: flex-end;
-    margin: 0 0 0 8px;
-}
-.ofertas ul li a{
-/*display: inline;
-margin-top: 23%;
-margin: 0 0 0 12px;*/
-text-decoration:none ;
-list-style: none;
-}
-.ofertas {
-    display: inline;
-    /* position: absolute; */
-    top: 43%;
-    /* left: 0%; */
+.login {
     text-decoration: none;
-    }
-.botones a {}
-
-.login {/* display: block; */display: inline;/* justify-content: flex-end; */align-items: center;margin-top: 10%;margin-left: 59%;}
+    color: black;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
 
 .link {
+    color: black;
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 .burger-menu {
-display: none;
+    display: flex;
+    justify-content: center;
+    color: var(--color-Grisclaro);
+    font: 1em sans-serif;
+    background-color: var(--color-Celeste);
+    width: 12%;
+    font-size: 21px;
+    margin-left: 42%;
+    border-radius: 4px;
+    padding: 9px;
+    margin-bottom: 20px;
 }
+
+/* TABLET */
+@media (min-width:426px) {
+   
+
+    .logo {
+        width: 29%;
+        margin-left: 4%;
+    }
+
+ 
+
+    .search-header {
+        font-size: 18px;
+        margin-top: 10%;
+        width: 24%;
+        margin-left: 34%;
+        height: 4%;
+        position: absolute;
+    }
+
+    .lupa {
+        position: absolute;
+        font-size: 15px;}
+    .lupa {
+        position: absolute;
+        font-size: 15px;};
+    .lupa {
+        position: absolute;
+        font-size: 13px;
+        margin-top: 76px;
+        margin-left: 449px;
+        };
+    
+
+
+
+    .mano-regalo {
+        margin-left: 513px;
+        display: flex;
+        position: absolute;
+        top: 13%;
+        font-size: 14px;
+    }
+
+    
+
+    .section-b {
+
+        display: flex;
+    }
+
+    .login ul li {
+        display: inline;
+        justify-content: flex-end;
+        margin: 0 0 0 8px;
+    }
+
+    .ofertas ul li a {
+        /*display: inline;
+margin-top: 23%;
+margin: 0 0 0 12px;*/
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .ofertas {
+        display: inline;
+        /* position: absolute; */
+        top: 43%;
+        /* left: 0%; */
+        text-decoration: none;
+        width: 100%;
+        font-size: 17px;
+        font-weight: normal;
+        gap: 2px;
+    }
+
+    
+
+    .login {
+        /* display: block; */
+        display: inline;
+        /* justify-content: flex-end; */
+        align-items: center;
+        margin-top: 0%;
+        margin-left: -51%;
+        list-style: none;
+        text-decoration: none;
+    }
+
+ 
+
+    .burger-menu {
+        display: none;
+    }
 }
+
 /* PORTATIL DESKTO  */
-@media (min-width:769px){
-.header-general {}
+@media (min-width:769px) {
+  
 
-.logo {
-}
+    .search-header {
+        position: absolute;
+        margin-top: 11%;
+        font-size: 21px;
+        height: 4%;
+    }
 
-body {}
+    .lupa {
+        margin-left: 59%;
+        margin-top: 114px;
+        height: 26px;
+        font-size: 16px;
+    }
 
-.search-header {position: absolute;margin-top: 11%;font-size: 21px;height: 2%;}
-.lupa{margin-left: 60%;margin-top: 11%;height: 22px;font-size: 15px;}
-.fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{margin-left: 691px;}
-.login ul li {
-    
-}
-.ofertas ul li{
-    
-}
-.ofertas {display: inline;top: 304px;list-style: none;text-decoration: none;margin-left: 3%;}
+    .mano-regalo {
+        margin-left: 691px;
+        margin-top: 117px;
+        position: absolute;
+        font-size: 16px;
+    }
 
-.botones a {}
 
-.login {
-}
+    .ofertas {
+        display: inline;
+        top: 304px;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 3%;
+    }
 
-.link {}
-
-.burger-menu {}
 
 }
