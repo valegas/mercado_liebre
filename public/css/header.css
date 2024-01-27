@@ -1,4 +1,4 @@
-.header-general {background-color: var(--color-Amarillo);width: 100%;display: flex;flex-direction: column;}
+.header-general {background-color: var(--color-Amarillo);width: 104%;display: flex;flex-direction: column;}
 .header-general img input .ifa-solid-fa-magnifying-glass {
 display: flex;
 border: 2px solid white;
@@ -19,14 +19,12 @@ margin-left: 7%;
 position: relative;
 }
 .lupa{
-
-position: absolute;
-font-size: 17px;
-margin-top: 24%;
-margin-left: 65%;
-background-color: white;
-border: 1px solid rgb(100, 100, 100);
-
+position: absolute;
+font-size: 17px;
+margin-top: 81px;
+margin-left: 67%;
+background-color: white;
+border: 1px solid rgb(100, 100, 100);
 }  
 .lupa .fa-solid-fa-magnifying-glass{
 
@@ -52,8 +50,10 @@ li{
     list-style: none; 
 }
 ul li{
-text-decoration: none;
-list-style: none;
+
+text-decoration: none;
+
+list-style: none;
 }
 
 .ofertas ul li {
@@ -62,6 +62,7 @@ text-decoration: none;
 .ofertas  {
 
 display: none;
+
 text-decoration: none;
 }
 .botones a {
@@ -70,11 +71,18 @@ text-decoration: none;
 color: black;
 
 }
-.login {text-decoration: none;color: black;padding: 0;margin: 0;display: none;}
+.login {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
 .link {
 color: black;
 margin: 0%;
 padding: 0;
+display: inline;
 }
 .burger-menu {display: flex;justify-content: center;color: var(--color-Grisclaro);font: 1em sans-serif;background-color: var(--color-Celeste);width: 12%;font-size: 21px;margin-left: 42%;border-radius: 4px;padding: 9px;margin-bottom: 20px;}
 /* TABLET */ 
@@ -84,11 +92,11 @@ padding: 0;
 
 .logo {width: 29%;margin-left: 4%;}
 body {}
-.search-header {font-size: 18px;margin-top: 10%;width: 25%;margin-left: 34%;height: 3%;position: absolute;}
-.lupa{margin-left: 60%;margin-top: 78px;width: 3%;height: 22px;}
+.search-header {font-size: 18px;margin-top: 82px;width: 25%;margin-left: 34%;height: 3%;position: absolute;}
+.lupa{margin-left: 60%;margin-top: 82px;width: 2%;height: 16px;font-size: 11px;}
 .fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{margin-left: 513px;display: flex;position: absolute;top: 11%;font-size: 14px;}
+.mano-regalo{margin-left: 513px;display: flex;position: absolute;top: 14%;font-size: 14px;}
 
 
 .login ul li {
@@ -101,12 +109,17 @@ display: inline;
 margin-top: 23%;
 margin: 0 0 0 12px;
 }
-.ofertas {display: inline;position: absolute;top: 40%;left: 4%;text-decoration: none;width: 42%;height: 47px;}
+.ofertas {display: inline;position: absolute;top: 34%;left: 0%;text-decoration: none;width: 44%;height: 47px;}
 .botones a {}
 
-.login {/* display: block; */display: inline;/* justify-content: flex-end; */align-items: center;margin-top: 7%;margin-left: 55%;}
+.login {
+    display: inline;
+    margin-top: 7%;
+    margin-left: 60%;
+}
 
 .link {
+    display: inline; 
 }
 
 .burger-menu {
@@ -122,21 +135,11 @@ display: none;
 
 body {}
 
-.search-header {
-position: absolute;
-margin-top: 18%;
-font-size: 21px;
-height: 3%;
-}
-.lupa{
-margin-top: 184px;
-margin-left: 320px;
-}
+.search-header {position: absolute;margin-top: 11%;font-size: 21px;height: 3%;}
+.lupa{margin-top: 115px;margin-left: 610px;font-size: 12px;width: 18px;height: 18px;}
 .fa-solid-fa-magnifying-glass{}
 
-.mano-regalo{
-margin-left: 483px;
-}
+.mano-regalo{margin-left: 705px;top: 107px;}
 .login ul li {
     
 }
@@ -146,8 +149,8 @@ margin-left: 483px;
 .ofertas {
     display: inline;
     position: absolute;
-    top: 40%;
-    left: 4%;
+    top: 34%;
+    left: 0%;
     text-decoration: none;
     width: 42%;
     height: 47px;

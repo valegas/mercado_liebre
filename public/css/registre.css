@@ -1,13 +1,14 @@
-@media (min-width:426px) {
+
     .link{
         text-decoration: none;
         list-style: none;
+        display: none; 
     }
     
     .link-login{
         text-decoration: none;
         list-style: none;
-       
+        display: none;
     }
     #registre{
         display: none;
@@ -15,30 +16,14 @@
     #ingresar{
         display: none;
     }
+#canasta{
+    display: none;  
 }
-@media (min-width:769px){
-
-.link{
-    text-decoration: none;
-    list-style: none;
-
+.button{
+    gap: 2px;
 }
 
-.link-registre{
-    text-decoration: none;
-    list-style: none;
-    display: none;
+.button:hover{
+color: var(--color-Celeste);
 }
-#registre{
-     display: none;
-}
-
-
-#ingresar{
-    display:none ;
-}
-}
-
-
-
 

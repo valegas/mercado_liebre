@@ -1,8 +1,8 @@
-@media (min-width:426px) {
+
     .link{
         text-decoration: none;
         list-style: none;
-       /* display:none;*/
+        display: none; 
     }
     #no-mostrar{
         display: none;
@@ -19,29 +19,9 @@
     
     
     #ingresar{
-        display:none ;
+        display: none; 
     }
+    .input-group{
+        /* left: 51px; */
     }
 
-@media (min-width:769px){
-
-.link{
-    text-decoration: none;
-    list-style: none;
-    display:none;
-}
-
-.link-registre{
-    text-decoration: none;
-    list-style: none;
-    display: none;
-}
-#registre{
-     display: none; 
-}
-
-
-#ingresar{
-    display:none 
-}
-}

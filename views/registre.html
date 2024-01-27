@@ -38,7 +38,7 @@
         <ul>
             <li><a class="link"href="/registre"> Crear tu cuenta </a><i id="registre" class="fa-solid fa-address-card"></i></li>
                         <li><a class="link-login"href="/login"> Ingresar </a><i id="ingresar" class="fa-solid fa-right-to-bracket"></i></li>
-                        <li><a class="link"href=""> Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
+                        <li><a class="link"href=""> Mis compras </a><i id="canasta" class="fa-solid fa-basket-shopping"></i></li>
                         
                     </ul>
                 </nav>
@@ -48,13 +48,13 @@
         </div>
     </header>
     <img class="banner" src="/img/img-home-banner.jpg" alt="">
-    <main class="main-productos">
+    <main class="main-conteiner">
         
 <div class="row">
 
     <form  action="/login" method="">
         
-        <div class="form-control my-3">
+        <div class="form-control my-4">
             <label class="visually-hidden" for="autoSizingInputGroup">Ingrese su Nombre y Apellido</label>
             
             <div class="input-group">
@@ -62,28 +62,29 @@
                 <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido">
            
                 <label class="visually-hidden" for="autoSizingInputGroup">Nombre usuario</label>
-                <div class="input-group  my-3" >
+                <div class="input-group  my-4" >
                     <div class="input-group-text">@</div>
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Nombre usuario">
                 </div>
+                <label for="floatingInputInvalid">Invalid input</label>
                 <label class="visually-hidden" for="autoSizingInputGroup">email</label>
                 <div class="input-group">
                     <div class="input-group-text"></div>
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="email">
                 </div>
-                <div class="col-12 " >
+                <div class="col-12 md-8 lg-8 " >
                     <h2>Fecha de nacimiento</h2>
                 </div>
                 <label class="visually-hidden" for="autoSizingInputGroup"></label>
-                <div class="  input-group my-3">
+                <div class="  input-group my-4">
                     <input type="date" class="form-control  " id="autoSizingInputGroup" placeholder="date">
                 </div>
                 <label class="visually-hidden" for="autoSizingInputGroup">domiocilio</label>
-                <div class=" col-12 input-group my-3" >
+                <div class=" col-12 md-8 lg-8 input-group my-4" >
                     <div class="input-group-text"></div>
                     <input type="text" class="form-control  " id="autoSizingInputGroup" placeholder="domicilo">
                 </div>
-                <H2 class="col-12 font-size-base my-3"  "row" "">Perfil del usuario</H2>
+                <H2 class="col-12 font-size-base my-4"  "row" "">Perfil del usuario</H2>
                 <div  class = "col-6 6-sm 4-lg" > 
                     <label for="comprador"></label>
                     <input type="radio" name="compra" value="si">comprador
@@ -92,44 +93,44 @@
                     <label for="vendedor"></label>
                     <input type="radio" name="compra" value="no">Vendedor
                 </div>
-               <div  class="col-12">
-                <h2>Intereses <h2>
+               <div  class="col-12 md-8 lg-8">
+                <h2 class="col-12 md-8 lg-8 my-4" my-3>Intereses <h2>
                 </div>  
-                <div class = " col-12 form-check " >
+                <div class = "col-12 md-8 lg-8 form-check " >
                    
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                           Electro
                         </label>
                     </div>
-                    <div class = "col-12 form-check "  >
+                    <div class = "col-12 md-8 lg-8 form-check "  >
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                           Moda
                         </label>
                     </div>
-                    <div class = "col-12 form-check " >
+                    <div class = "col-12 md-8 lg-8 form-check " >
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                           Yoga
                         </label>
                     </div>
-                    <div class = "col-12 form-check " >
+                    <div class = "col-12 md-8 lg-8 form-check " >
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                          Jugeteria
                         </label>
                     </div >
-                    <div class = "col-12 form-check " >
+                    <div class = "col-12 md-8 lg-8 form-check " >
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                         Vida sana
                         </label>
                 </div>
-                <div class="col-12 6-sm 4-lg my-3">
+                <div class="col-12 md-8 lg-8 my-3">
                 <input type="file" name="avatar" accept="jpg" multiple>
                 </div>
-                <div class="col-12 6-sm 4-lg my-3 ">
+                <div class="col-12 md-8 lg-8 my-3 ">
 
                 </div>
                 <label class="visually-hidden" for="autoSizingInputGroup"></label>
@@ -138,16 +139,18 @@
                     <input type="password"  name="password" class="form-control" id="autoSizingInputGroup" placeholder="elegir contraseña">
                 </div>   
                 <label class="visually-hidden" for="autoSizingInputGroup"></label>
-                <div class=" col-12 input-group my-3 ">
+                <div class=" col-12 md-8 lg-8 input-group my-3">
                     <div class="input-group-text"></div>
                     <input type="password"  name="password" class="form-control" id="autoSizingInputGroup" placeholder="repetir contraseña">
-                </div>    
+                </div>     
                 
             </div>
                 
-                
-                <button class=" button flex diretion-end " type="submit"  name="Enviar" href ="login.html" >Enviar</button>
-                <button class="button  flex diretion-end  " type="reset" name="borrar" >Borrar</button>
+                <div  class=" button md-8 lg-8 d-grid gap-2 d-md-flex justify-content-md-end">
+
+                    <button class=" button flex diretion-end  " type="submit"  name="Enviar" href ="login.html" >Enviar</button>
+                    <button class="button  flex diretion-end  " type="reset" name="borrar" >Borrar</button>
+                </div>
                 
                 
             </form>
