@@ -1,0 +1,44 @@
+@media (min-width:426px) {
+    .link{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .link-login{
+        text-decoration: none;
+        list-style: none;
+       
+    }
+    #registre{
+        display: none;
+   }
+    #ingresar{
+        display: none;
+    }
+}
+@media (min-width:769px){
+
+.link{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.link-registre{
+    text-decoration: none;
+    list-style: none;
+    display: none;
+}
+#registre{
+     display: none;
+}
+
+
+#ingresar{
+    display:none ;
+}
+}
+
+
+
+
