@@ -1,27 +1,31 @@
 
     .link{
-        text-decoration: none;
-        list-style: none;
-        display: none; 
+    text-decoration: none;
+    list-style: none;
+    display: none; 
     }
     
     .link-login{
-        text-decoration: none;
-        list-style: none;
-        display: none;
+    text-decoration: none;
+    list-style: none;
+    display: none;
     }
+
     #registre{
-        display: none;
+    display: none;
    }
+
     #ingresar{
-        display: none;
+    display: none;
     }
-#canasta{
+
+    #canasta{
     display: none;  
-}
-.button{
+    }
+
+   .button{
     gap: 2px;
-}
+    }
 
 .button:hover{
 color: var(--color-Celeste);

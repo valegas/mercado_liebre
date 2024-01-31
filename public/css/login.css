@@ -1,27 +1,28 @@
 
     .link{
-        text-decoration: none;
-        list-style: none;
-        display: none; 
+    text-decoration: none;
+    list-style: none;
+    display: none; 
     }
+
     #no-mostrar{
-        display: none;
+    display: none;
     }
     
     .link-registre{
-        text-decoration: none;
-        list-style: none;
-       
+    text-decoration: none;
+    list-style: none; 
     }
+
     #registre{
-         display: none; 
+    display: none; 
     }
     
     
     #ingresar{
-        display: none; 
+    display: none; 
     }
     .input-group{
-        /* left: 51px; */
+       
     }
 

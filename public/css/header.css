@@ -1,4 +1,9 @@
-.header-general {background-color: var(--color-Amarillo);width: 104%;display: flex;flex-direction: column;}
+.header-general {
+background-color: var(--color-Amarillo);
+width: 104%;
+display: flex;
+flex-direction: column;
+}
 .header-general img input .ifa-solid-fa-magnifying-glass {
 display: flex;
 border: 2px solid white;
@@ -19,12 +24,18 @@ margin-left: 7%;
 position: relative;
 }
 .lupa{
-position: absolute;
-font-size: 17px;
-margin-top: 81px;
-margin-left: 67%;
-background-color: white;
-border: 1px solid rgb(100, 100, 100);
+
+position: absolute;
+
+font-size: 17px;
+
+margin-top: 81px;
+
+margin-left: 67%;
+
+background-color: white;
+
+border: 1px solid rgb(100, 100, 100);
 }  
 .lupa .fa-solid-fa-magnifying-glass{
 
@@ -40,7 +51,12 @@ background-color: white;
     margin-top: -17px;
     margin-left: 0%;
 }
-.mano-regalo{display: flex;margin-left: 39px;font-size: 14px;justify-content: flex-start;align-items: center;margin: 7px;}
+.mano-regalo{display: flex;
+    margin-left: 39px;
+    font-size: 14px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 7px;}
 .login ul li {
     display: inline;
     text-decoration: none;
@@ -84,7 +100,18 @@ margin: 0%;
 padding: 0;
 display: inline;
 }
-.burger-menu {display: flex;justify-content: center;color: var(--color-Grisclaro);font: 1em sans-serif;background-color: var(--color-Celeste);width: 12%;font-size: 21px;margin-left: 42%;border-radius: 4px;padding: 9px;margin-bottom: 20px;}
+.burger-menu {display: flex;
+    justify-content: center;
+    color: var(--color-Grisclaro);
+    font: 1em sans-serif;
+    background-color: var(--color-Celeste);
+    width: 12%;
+    font-size: 21px;
+    margin-left: 42%;
+    border-radius: 4px;
+    padding: 9px;
+    margin-bottom: 20px;
+}
 /* TABLET */ 
 @media (min-width:426px) {
 .header-general {
@@ -92,8 +119,19 @@ display: inline;
 
 .logo {width: 29%;margin-left: 4%;}
 body {}
-.search-header {font-size: 18px;margin-top: 82px;width: 25%;margin-left: 34%;height: 3%;position: absolute;}
-.lupa{margin-left: 60%;margin-top: 82px;width: 2%;height: 16px;font-size: 11px;}
+.search-header {
+    font-size: 18px;
+    margin-top: 82px;width: 25%;
+    margin-left: 34%;
+    height: 3%;
+    position: absolute;
+}
+.lupa{margin-left: 60%;
+    margin-top: 82px;
+    width: 2%;
+    height: 16px;
+    font-size: 11px;
+}
 .fa-solid-fa-magnifying-glass{}
 
 .mano-regalo{margin-left: 513px;display: flex;position: absolute;top: 14%;font-size: 14px;}
@@ -109,7 +147,14 @@ display: inline;
 margin-top: 23%;
 margin: 0 0 0 12px;
 }
-.ofertas {display: inline;position: absolute;top: 34%;left: 0%;text-decoration: none;width: 44%;height: 47px;}
+.ofertas {
+    display: inline;
+    position: absolute;
+    top: 34%;left: 0%;
+    text-decoration: none;
+    width: 44%;
+    height: 47px;
+}
 .botones a {}
 
 .login {
