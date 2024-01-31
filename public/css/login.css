@@ -2,7 +2,7 @@
     .link{
     text-decoration: none;
     list-style: none;
-    display: none; 
+    display: inline;
     }
 
     #no-mostrar{

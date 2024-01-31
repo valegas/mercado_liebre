@@ -159,14 +159,18 @@ margin: 0 0 0 12px;
 
 .login {
     display: inline;
-    margin-top: 7%;
-    margin-left: 60%;
+    margin-top: 5%;
+    margin-left: 49%;
+    font-size: 15px;
 }
+
 
 .link {
     display: inline; 
 }
-
+.link-login{
+    display: inline;
+}
 .burger-menu {
 display: none;
 }
@@ -194,23 +198,31 @@ body {}
 .ofertas {
     display: inline;
     position: absolute;
-    top: 34%;
+    top: 45%;
     left: 0%;
     text-decoration: none;
-    width: 42%;
+    width: 46%;
     height: 47px;
+    font-size: 17px;
 }
 
 .botones a {}
 
 .login {
+    display: inline;
+    font-size: 17px;
+    margin-left: 579px;
+    margin-top: 51px;
+}
 }
 
 .link a{
     text-decoration: none;
     list-style: none;
 }
-
+.link {
+    display: inline; 
+}
 .burger-menu {}
 
 }

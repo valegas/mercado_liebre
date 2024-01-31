@@ -57,8 +57,6 @@ margin-bottom: 10px;
 
 .h4-div-footer{}
 
-.text-footer{
-display: flex;
-}
+.text-footer{display: flex;justify-content: center;}
 .p-copy{}
 }
