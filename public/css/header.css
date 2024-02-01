@@ -1,9 +1,4 @@
-.header-general {
-background-color: var(--color-Amarillo);
-width: 104%;
-display: flex;
-flex-direction: column;
-}
+.header-general {background-color: var(--color-Amarillo);width: 100%;display: flex;flex-direction: column;}
 .header-general img input .ifa-solid-fa-magnifying-glass {
 display: flex;
 border: 2px solid white;
