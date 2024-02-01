@@ -1,20 +1,8 @@
-.div-footer{
-background-color: var(--color-Grisclaro);
-display: flex;
-justify-content: center;
-flex-direction: column;
-}
-.h4-div-footer{
-display: flex;
-justify-content: center;
-}
+.footer{}
+.div-footer{background-color: var(--color-Grisclaro);display: flex;justify-content: center;flex-direction: column;}
+.h4-div-footer{/* display: flex; */align-items: center;}
 
-.fa-solid.fa-credit-card{
-display: flex;
-color: var(--color-Celeste);
-flex-direction: row;
-justify-content: space-around;
-}
+.fa-solid.fa-credit-card{/* font-size: 1em; */display: flex;color: var(--color-Celeste);flex-direction: row;justify-content: space-around;}
 
 .fa-solid.fa-gift{
 display: flex;
@@ -40,9 +28,17 @@ margin-bottom: 10px;
 
 /* TABLET */
 @media (min-width:426px) {
+.footer{}  
 .div-footer i {}
 
-.div-footer{}
+.div-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
 
 .h4-div-footer{}
 
@@ -51,12 +47,44 @@ margin-bottom: 10px;
 
 /* PORTATIL DESKTO */
 @media (min-width:769px){
-.div-footer i {}
+.footer{
+    
+display: flex;
+    
+flex-direction: row;
+    
+flex-wrap: wrap;
+    
+/* align-items: center; */
+    
+width: 101%;
+}   
+.div-footer i {
+    font-size: 2em;
+}
 
-.div-footer{}
-
+.div-footer{
+    /* display: inline; */
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+#icono-footer{
+    margin-top: 10px;
+}
+#icono-footer:hover{
+   color: aqua;
+}
 .h4-div-footer{}
 
-.text-footer{display: flex;justify-content: center;}
+.text-footer{display: flex;
+    height: 200px;
+    width: 79%;
+    margin-left: 13%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;}
 .p-copy{}
 }
