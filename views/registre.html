@@ -50,29 +50,40 @@
     <img class="banner" src="/img/img-home-banner.jpg" alt="">
     <main class="main-conteiner">
         
-<div class="row">
+<div class="div-conteiner row">
 
-    <form  action="/login" method="">
+    <form class="row" action="/login" method="">
+
+        <div class="container products-wrapper">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">.  <label class="visually-hidden" for="autoSizingInputGroup">Ingrese su Nombre y Apellido</label>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido"></div>
+              <label class="visually-hidden" for="autoSizingInputGroup">Ingrese su Nombre y Apellido</label>
+              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido">
+              <div class="col-6 col-md-6">  <label class="visually-hidden" for="autoSizingInputGroup">Ingrese su Nombre y Apellido</label>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido"></div>
+            </div>
         
-        <div class=" col-12 md-4 lg-4 form-control my-4">
+        <div class=" row col-md-2 col-lg-4 form-control my-4">
             <label class="visually-hidden" for="autoSizingInputGroup">Ingrese su Nombre y Apellido</label>
-            
-            <div class="input-group">
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido">
+        </div>
+            <div class=" col-md-2col-lg-4 ">
                 
-                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Ingrese su Nombre y Apellido">
            
                 <label class="visually-hidden" for="autoSizingInputGroup">Nombre usuario</label>
-                <div class=" col-12 md-4 lg-4  input-group  my-4 " >
+                <div class="  col-md-2 col-lg-4  input-group  my-4 " >
                     <div class="input-group-text">@</div>
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Nombre usuario">
                 </div>
                 <label for="floatingInputInvalid"></label>
                 <label class="visually-hidden" for="autoSizingInputGroup">email</label>
-                <div class="col-12 md-4 lg-4  input-group">
+                <div class="col-12 col-md-4 col-lg-4  input-group">
                     <div class="input-group-text"></div>
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="email">
                 </div>
-                <div class="col-12 md-4 lg-4 " >
+                <div class="col-12 col-md-4 col-lg-4 " >
                     <h2>Fecha de nacimiento</h2>
                 </div>
                 <label class="visually-hidden" for="autoSizingInputGroup"></label>
@@ -133,13 +144,14 @@
                 <div class="col-12 md-8 lg-8 my-3 ">
 
                 </div>
-                <label class="visually-hidden" for="autoSizingInputGroup"></label>
                 <div class="input-group">
+                    <label class="visually-hidden" for="autoSizingInputGroup"></label>
                     <div class="input-group-text"></div>
                     <input type="password"  name="password" class="form-control" id="autoSizingInputGroup" placeholder="elegir contraseña">
                 </div>   
-                <label class="visually-hidden" for="autoSizingInputGroup"></label>
+                
                 <div class=" col-12 md-8 lg-8 input-group my-3">
+                    <label class="visually-hidden" for="autoSizingInputGroup"></label>
                     <div class="input-group-text"></div>
                     <input type="password"  name="password" class="form-control" id="autoSizingInputGroup" placeholder="repetir contraseña">
                 </div>     

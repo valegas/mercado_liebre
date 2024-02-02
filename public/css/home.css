@@ -11,7 +11,12 @@ margin: 0;
 width: 103%;
 height: 70px;}
 
-h2{font-size: 16px;color: var(--color-Grisoscuro);display: inline;margin-top: 17px;}
+h2{
+font-size: 16px;
+color: var(--color-Grisoscuro);
+display: inline;
+margin-top: 17px;
+}
 
 .articulos{
 display: flex;
@@ -73,7 +78,20 @@ body {}
 
 .banner{}
 
-.subtitulos{}
+.subtitulos{
+    font-size: 16px;
+    color: var(--color-Grisoscuro);
+    /* display: inline; */
+    margin-top: 0px;
+    margin-left: -1%;
+    align-items: center;
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
 
 .articulos{
 position: relative;
@@ -111,10 +129,13 @@ width: 29px;
 }
 
 
-.main-productos{display: flex;
+.main-productos{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 7%;}
+    margin-left: 1%;
+    margin-top: 6%;
+    }
 .seccion-art-1{
     
 }
