@@ -65,11 +65,11 @@ width: 101%;
 
 .div-footer{
     /* display: inline; */
-    width: 33%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 18px;
+   
 }
 #icono-footer{
     margin-top: 10px;

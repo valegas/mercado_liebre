@@ -25,4 +25,9 @@
     .input-group{
        
     }
-
+.btn-btn-primary a{
+    color: white;
+}
+.btn-btn-primary:hover{
+    color: var(--color-violeta);
+}

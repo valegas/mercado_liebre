@@ -103,10 +103,7 @@ width: 29px;
 .precio:hover{
 
 }
-.descuento{
-margin-left: 34%;
-margin-top: 5%;
-}
+.descuento{margin-left: 37%;margin-top: 5%;}
 
 .h4-div-seccion-1{
     opacity: 0;
@@ -156,9 +153,16 @@ height: 188px;
 .articulos{box-shadow: 1px 6px 10px rgba(100,100,100,0322);width: 93%;display: flex;/* display: inline-block; */padding: 9px;margin-left: -1px;flex-direction: column;flex-wrap: nowrap;}
 .detalles{width: 97%;}
 .fa-solid.fa-truck{width: 11%;font-size: 9px;height: 19px;height: 22;margin-left: 79%;}
-.precio{}
+.precio{
+    font-size: 13px;
+    margin-top: 9px;
+}
 
-.descuento{}
+.descuento{
+    margin-left: 56px;
+    font-size: 12px;
+    margin-top: 10px;
+}
 
 .h4-div-seccion-1{
     opacity: 0;
