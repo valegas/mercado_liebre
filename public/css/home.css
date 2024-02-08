@@ -6,7 +6,19 @@ body {
     width: 100%;
     margin: 0;
 }
-
+.main section article{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50;
+    position: bsolute;
+    right: 20px;
+    top: -15x;
+}
 .banner {
     width: 100%;
     height: 70px;
@@ -96,7 +108,7 @@ h2 {
 
     .precio {
         position: absolute;
-        margin-top: 4%;
+        margin-top: 3%;
     }
 
     .descuento {
