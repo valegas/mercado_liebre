@@ -18,31 +18,11 @@ font-size: 16px;
 color: var(--color-Grisoscuro);
 }
 
-.articulos{
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 89%;
-border: 1px solid grey;
-box-shadow: 0px 0px 1px 8px #ebebeb;
-margin: 19px 0;
-border-width: 16%;
-}
+.articulos{display: flex;flex-direction: column;align-items: center;width: 90%;border: 1px solid grey;box-shadow: 0px 0px 0px 10px #ebebeb;margin: 30px 0;border-width: 16%;}
 
-.detalles{
-width: 254px;
-border-top: 1px solid #8080802e;
-}
+.detalles{width: 90%;border-top: 1px solid #8080802e;}
 
-.fa-solid.fa-truck {
-border: 1px solid green;
-border-radius: 50%;
-width: 14%;
-padding: 2%;
-font-size: 12px;
-margin-left: 0%;
-color: green;
-}
+.fa-solid.fa-truck {border: 1px solid green;border-radius: 50%;width: 14%;padding: 2%;font-size: 12px;margin-left: 0%;color: green;}
 
 .precio{
 margin: 0px;
@@ -65,9 +45,16 @@ box-shadow: 0px, 0, 10px rgba(100, 100, 100);
 flex-wrap: wrap;
 flex-direction: column;
 }
-.imagenes img {width: 76%;margin: 21px;
+.imagenes img {
+width: 76%;
+margin: 21px;
 }
+.seccion-art-1{
 
+}
+.articulos{
+
+}
 /* TABLET */
 @media (min-width:426px) {
 
@@ -98,7 +85,12 @@ flex-wrap: nowrap;
 .imagenes img {}
 
 }
+.seccion-art-1{
 
+}
+.articulos{
+
+}
 /* PORTATIL DESKTO  */
 @media (min-width:769px){
 .body {}
@@ -109,20 +101,11 @@ flex-wrap: nowrap;
 height: 188px;
 }
 .subtitulos{}
-.articulos{
-box-shadow: 1px 6px 10px  #ebebeb;
-width: 24%;
-display: inline-block;
-padding: 7px;
-}
+.articulos{padding: 8px;box-shadow: 1px 6px 10px  #ebebeb;width: 29%;padding: 13px;display: flex;flex-direction: row;flex-wrap: wrap;}
 .detalles{
 width: 98%;
 }
-.fa-solid.fa-truck{
-width: 10%;
-font-size: 12px;
-height: 43px;
-}
+.fa-solid.fa-truck{height: 44px;width: 12%;height: 58px;height: 26px;}
 .precio{}
 
 .descuento{}
@@ -138,5 +121,13 @@ flex-direction: row;
 .imagenes img {
 }
 
+.seccion-art-1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.articulos{
 
+}
 }
