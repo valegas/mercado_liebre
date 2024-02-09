@@ -34,7 +34,14 @@ width: 254px;
 border-top: 1px solid #8080802e;
 }
 
-.fa-solid.fa-truck {border: 1px solid green;border-radius: 50%;width: 13%;padding: 2%;font-size: 12px;margin-left: 3%;color: green;}
+.fa-solid.fa-truck 
+{border: 1px solid green;
+    border-radius: 50%;
+    width: 13%;
+    padding: 2%;
+    font-size: 12px;
+    margin-left: 3%;
+    color: green;}
 
 .precio{
 margin: 0px;
@@ -87,10 +94,14 @@ body {}
     align-items: center;
 }
 h2{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    align-items: center;
+    
+display: flex;
+    
+flex-direction: row;
+    
+align-content: flex-start;
+    
+align-items: center;
 }
 
 .articulos{
@@ -112,11 +123,10 @@ width: 29px;
     transition: 1s;
 }
 
-.precio{ position: absolute;
-     margin-top: 4%; 
-    ;
-      transition:450ms ; 
-      
+.precio{ 
+    position: absolute;
+    margin-top: 4%; 
+; transition:450ms ;  
 }
 .precio:hover{
 
@@ -171,7 +181,8 @@ height: 188px;
     /* width: 0px; */
     display: flex;
 }
-.articulos{box-shadow: 1px 6px 10px rgba(100,100,100,0322);width: 93%;display: flex;/* display: inline-block; */padding: 9px;margin-left: -1px;flex-direction: column;flex-wrap: nowrap;}
+.articulos{box-shadow: 1px 6px 10px rgba(100,100,100,0322);
+    width: 93%;display: flex;padding: 9px;margin-left: -1px;flex-direction: column;flex-wrap: nowrap;}
 .detalles{width: 97%;}
 .fa-solid.fa-truck{width: 11%;font-size: 9px;height: 19px;height: 22;margin-left: 79%;}
 .precio{
@@ -192,7 +203,8 @@ height: 188px;
 .h4-div-seccion-1:hover{ opacity: 1; transition: 1s; 
 }
 
-.main-productos{display: flex;/* align-content: space-around; *//* justify-content: space-evenly; */flex-wrap: wrap;align-items: flex-start;}
+.main-productos{display: flex;
+    /* align-content: space-around; *//* justify-content: space-evenly; */flex-wrap: wrap;align-items: flex-start;}
 .seccion-art-1{
     margin-right: 4%;
     margin-top: 10px;
