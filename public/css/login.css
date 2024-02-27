@@ -1,0 +1,33 @@
+
+    .link{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    }
+
+    #no-mostrar{
+    display: none;
+    }
+    
+    .link-registre{
+    text-decoration: none;
+    list-style: none; 
+    }
+
+    #registre{
+    display: none; 
+    }
+    
+    
+    #ingresar{
+    display: none; 
+    }
+    .input-group{
+       
+    }
+.btn-btn-primary a{
+    color: white;
+}
+.btn-btn-primary:hover{
+    color: var(--color-violeta);
+}

@@ -1,0 +1,33 @@
+
+    .link{
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    }
+    
+    .link-login{
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    }
+
+    #registre{
+    display: none;
+   }
+
+    #ingresar{
+    display: none;
+    }
+
+    #canasta{
+    display: none;  
+    }
+
+   .button{
+    gap: 2px;
+    }
+
+.button:hover{
+color: var(--color-Celeste);
+}
+
